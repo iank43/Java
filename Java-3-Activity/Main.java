@@ -10,7 +10,7 @@ class Main {
   
    System.out.println("Ian Kim");
 
-
+   System.out.println("Ian Kim 41-26 210th strt");
 
   }
 
