@@ -10,11 +10,11 @@ class Main {
     // Number of cars
        int numOfCars = 20;
     // Investment amount in currency
-      float invstmtmAmt = 200.50;
+      double invstmtmAmt = 200.50;
     // Person's first name
       String fName = "Mary";
     // Is a game over?
-      boolean isGameOver = "false";
+      boolean isGameOver = false;
     // Store the first initial of a name
       char fInitial = 'n';
     // Maximum number of customers in a theater (declare as a constant)
