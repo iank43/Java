@@ -48,8 +48,12 @@ class Main {
     2) the status whether the game is over
     3) the status whether the battery is charging
 */
-
-
+    boolean lightsOn = true;
+    System.out.println("Lights on: " + lightsOn);
+    boolean gameOver = false;
+    System.out.println("Game over: " + gameOver);
+    boolean batteryCharging = true; 
+    System.out.println("Battery charging: " + batteryCharging);
 
     // **************************************************
     // **** Don't write any code below here.  ***********
