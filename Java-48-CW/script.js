@@ -14,10 +14,20 @@ async function init(){
   
   
   // Problem 2: Write the JS code in the function init() and get the employee's table from your server as an array of JSON.
+  info = await fetch(link+route);
+  data = await info.json();
 
+  let employees = data;
   
   // Problem 3: For each employee, display their first name, last name and birthdate to the console.
+  for(let i = 0; i<employees.length; i++){
+    let employee = employees[i];
+    console.log("First name: " + employee.FirstName);
+    console.log("Last name: " + employee.LastName);
+    console.log("Birth Date: " + employee.BirthDate);
+    console.log("**************");
 
+  }
   
 
 }
